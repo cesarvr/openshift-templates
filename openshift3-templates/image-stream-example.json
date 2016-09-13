@@ -1,0 +1,21 @@
+{
+    "kind": "ImageStream",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "uat-tag-monitor",
+        "labels": {
+            "template": "uat-tag-monitor"
+        }
+    },
+    "spec": {},
+    "status": {
+        "dockerImageRepository": "172.30.166.151:5000/platform-ci/platform-sit",
+        "tags": [{
+            "tag": "uat",
+            "items": [{
+                "dockerImageReference": "172.30.166.151:5000/platform-ci/platform-sit@sha256:504d694c2961c3d763695b8b8a1b2a88bb6d2781c428a4c0508c1d2b0e152bbf",
+                "image": "sha256:504d694c2961c3d763695b8b8a1b2a88bb6d2781c428a4c0508c1d2b0e152bbf"
+            }]
+        }]
+    }
+}
