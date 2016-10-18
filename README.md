@@ -2,8 +2,8 @@
 
 
 ### How to configure secrets for git repository
-  - (Basic Auth)[https://docs.openshift.com/enterprise/3.1/dev_guide/builds.html#basic-authentication]
-  - (SSH)[https://docs.openshift.com/enterprise/3.1/dev_guide/builds.html#ssh-key-authentication]
+  - [Basic Auth](https://docs.openshift.com/enterprise/3.1/dev_guide/builds.html#basic-authentication)
+  - [SSH](https://docs.openshift.com/enterprise/3.1/dev_guide/builds.html#ssh-key-authentication)
 
 
 
