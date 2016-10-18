@@ -9,7 +9,10 @@
 
 
 ### Templates. 
-  - deploy-router-services 
-    - this template takes an image:tag and listen for changes, if a change happens he deploy the image. 
-    - **use case:** to promote image between environments/projects (eg: from development to QA). 
+
+  - openshift3-templates/
+
+    - deploy-router-services-mongodb.json 
+      - this template takes an image:tag and listen for changes, if a change happens he deploy the image. 
+      - **use case:** to promote image between environments/projects (eg: from development to QA). 
 
