@@ -2,7 +2,7 @@
     "kind": "Template",
     "apiVersion": "v1",
     "metadata": {
-        "name": "nodejs6-mongodb",
+        "name": "nodejs6-abouz",
         "namespace": "openshift",
         "annotations": {
             "description": "MongoDB + NodeJS6 by c-zar",
@@ -79,7 +79,7 @@
                         "from": {
                             "kind": "ImageStreamTag",
                             "namespace": "${NAMESPACE}",
-                            "name": "hell-nodejs:latest"
+                            "name": "s2i-abouz:latest"
                         }
                     }
                 },
